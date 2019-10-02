@@ -1,0 +1,123 @@
+li{
+    display: inline;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    float: left;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+}
+
+.li1{
+    display: inline;
+    display: block; 
+    padding: 60px; 
+    color: rgb(255, 255, 255);
+    float: left;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.choix {
+    color: black;
+    font-size: 40px;
+}
+
+.fas {
+    color : white;
+    font-size: 50px;
+    padding: 50px;
+    animation: fa-spin 3s infinite linear;
+}
+
+.right {
+    position: absolute;
+    right: 10%;
+  }
+
+  .center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .left {
+    position: absolute;
+    left: 10%
+  }
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+}
+
+.li1:hover {
+    background-color: #00ac1d;
+}
+
+.li1:active {
+    background-color: #1a5300;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+
+  .card-title {
+    margin-bottom: 0.75rem;
+  }
+
+.btnleft {
+    position: absolute;
+    left: 10%;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .btncenter {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .btnright {
+    position: absolute;
+    right: 10%;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
